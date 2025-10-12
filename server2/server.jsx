@@ -6,7 +6,7 @@ const bcrypt = require('bcrypt');
 
 app.use(bodyParser.json());
 
-mongoose.connect('mongodb+srv://maheswari1187:Maheswari_18@maheswari.duqhamd.mongodb.net/login', { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect('mongourl', { useNewUrlParser: true, useUnifiedTopology: true });
 
 const userSchema = new mongoose.Schema({
 email:{
