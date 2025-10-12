@@ -5,7 +5,7 @@ const path=require('path');
 const app = express();
 const cors = require('cors');
 app.use(express.static('public'));
-mongoose.connect('mongodb+srv://maheswari1187:Maheswari_18@maheswari.duqhamd.mongodb.net/login', {
+mongoose.connect('mongourl', {
   useUnifiedTopology: true,
   useNewUrlParser: true
 }).then(
